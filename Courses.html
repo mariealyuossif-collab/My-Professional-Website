@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+     <style>
+        body{
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .course{
+            border: 1px solid gray;
+            padding: 15px;
+            width: 220px;
+            background-color: white;
+            text-align: center;
+        }
+        .course img{
+            width: 100%;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Our Courses</h1> 
+  <div class="container">
+    <div class="cource">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6vbAqNHwryyG2EpTaL3vcP4ZqVtM_ftYow&s" alt="learing HTML">
+    <h3>HTML Course</h3> 
+  <p>learn how to build websites.</p>
+  <a href="lesson.html">
+  <button>Start Course</button>
+  </a>
+  </div>
+  
+  <div class="cource">
+    <img src="https://e7.pngegg.com/pngimages/603/759/png-clipart-css3-cascading-style-sheets-logo-html-world-wide-web-blue-angle-thumbnail.png" alt="learing CSS">
+    <h3>CSS Course</h3>
+    <p>learn how to design websites</p>
+    <button>Start Course</button>
+  </div>
+  <div class="cource">
+    <img src="data:image/jpeg;base64,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" alt="learing JavaScript">
+    <h3>JavaScript Course</h3>
+    <p>learn how to make websites interactive.</p>
+    <button>Start Courses</button>
+  </div>
+  </div>
+</body>
+</html>
